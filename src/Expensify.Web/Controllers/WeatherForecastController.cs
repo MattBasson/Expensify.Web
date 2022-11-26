@@ -1,3 +1,4 @@
+using Expensify.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Expensify.Web.Controllers;

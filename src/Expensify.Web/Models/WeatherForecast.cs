@@ -1,4 +1,4 @@
-namespace Expensify.Web;
+namespace Expensify.Web.Models;
 
 public class WeatherForecast
 {

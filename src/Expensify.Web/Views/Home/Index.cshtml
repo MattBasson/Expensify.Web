@@ -1,0 +1,22 @@
+﻿@model HomeModel
+@{
+    ViewData["Title"] = "Home Page";    
+}
+
+<div class="text-center">
+    <h1 class="display-4">Expensify</h1>
+    <p>Expensify App</p>
+</div>
+
+<h2>Expenses: </h2>
+<ul>
+@{
+    foreach (var expense in Model.Expenses)
+    {
+        <li>
+            <p>@expense.Merchant</p>
+        </li>            
+    }
+}
+
+</ul>
