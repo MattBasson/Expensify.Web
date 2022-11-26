@@ -13,8 +13,12 @@
 @{
     foreach (var expense in Model.Expenses)
     {
-        <li>
+
+            var base64 = Convert.ToBase64String(expense.ReceiptImage);
+            var imgSrc = String.Format("data:image/gif;base64,{0}", base64);
+            <li>
             <p>@expense.Merchant</p>
+            <p><img src="@imgSrc" /></p>
         </li>            
     }
 }
