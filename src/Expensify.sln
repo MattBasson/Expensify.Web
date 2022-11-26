@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{E123253B-F42B-4DDE-9F5E-9EC1292E8EFB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Expensify.Web", "Expensify.Web\Expensify.Web.csproj", "{2E9A4A04-EC40-45B8-B055-41CCD0EAAA27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E9A4A04-EC40-45B8-B055-41CCD0EAAA27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E9A4A04-EC40-45B8-B055-41CCD0EAAA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E9A4A04-EC40-45B8-B055-41CCD0EAAA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E9A4A04-EC40-45B8-B055-41CCD0EAAA27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E9A4A04-EC40-45B8-B055-41CCD0EAAA27} = {E123253B-F42B-4DDE-9F5E-9EC1292E8EFB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1247D4B1-B29A-4C51-BFCE-566D5487E88D}
+	EndGlobalSection
+EndGlobal
